@@ -4,11 +4,15 @@
     <string name="name">Name</string>
     <string name="address">Address</string>
     <string name="phone">Phone</string>
+    <string name="first_num">Enter First Number</string>
+    <string name="second_num">Enter Second Number</string>
+    <string name="submit">Submit</string>
+    <string name="hello">hello</string>
     <string-array name="st1">
         <item>BCA</item>
         <item>BBM</item>
         <item>BHM</item>
         <item>BASW</item>
     </string-array>
-    <string name="user_details">ID: %1$s&#10;Name: %2$s&#10;Address: %3$s&#10;Gender: %4$s</string>
+    <string name="user_details">ID: %1$s\nName: %2$s\nAddress: %3$s\nGender: %4$s</string>
 </resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/ic_launcher_foreground">
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_num"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:padding="16dp"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/second_num"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:padding="16dp"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_marginBottom="24dp"
+        android:elevation="4dp"
+        />
+
+    <Button
+        android:id="@+id/click_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+</LinearLayout>

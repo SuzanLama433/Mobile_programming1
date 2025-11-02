@@ -34,10 +34,10 @@ public class class_one extends Activity {
                 String Address = address.getText().toString();
                 String Gender = "";
                   if (button_male.isChecked()){
-                      Gender = "male";
+                      Gender = "Male";
                   }
                   else{
-                      Gender = "female";
+                      Gender = "Female";
                   }
 
                 Intent intent = new Intent(class_one.this, class_two.class) ;

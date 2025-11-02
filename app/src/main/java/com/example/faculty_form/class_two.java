@@ -20,6 +20,5 @@ public class class_two extends Activity {
         TextView text = findViewById(R.id.textview11);
         String info = getString(R.string.user_details, ID, Name, Address, Gender);
         text.setText(info);
-
     }
 }

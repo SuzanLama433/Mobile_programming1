@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/res"
         android:label="Faculty_form"
-        android:roundIcon="@drawable/ic_launcher_background"
+        android:roundIcon="@drawable/res"
         android:supportsRtl="true"
         android:theme="@style/Theme.Faculty_form" >
 
