@@ -1,0 +1,14 @@
+<resources>
+    <string name="Copyright">©Created By Sujan Lama</string>
+    <string name="faultyForm">Faculty Form</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string-array name="st1">
+        <item>BCA</item>
+        <item>BBM</item>
+        <item>BHM</item>
+        <item>BASW</item>
+    </string-array>
+    <string name="user_details">ID: %1$s&#10;Name: %2$s&#10;Address: %3$s&#10;Gender: %4$s</string>
+</resources>

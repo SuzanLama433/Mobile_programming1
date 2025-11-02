@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:id="@+id/relate_edit1"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:id="@+id/relate_edit2"
+        android:layout_below="@+id/relate_edit1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/faultyForm"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:id="@+id/relate_edit4"
+        android:layout_below="@+id/relate_edit2"
+
+
+        />
+
+
+</RelativeLayout>
