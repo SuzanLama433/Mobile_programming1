@@ -1,51 +1,54 @@
 package com.example.faculty_form;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class popup_backend extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
-
-    TextView txt1;
-
+public class popup_backend extends AppCompatActivity {
+    TextView textView;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.popup_menu);
 
-        txt1 = findViewById(R.id.popup1);
+        textView=findViewById(R.id.popup1);
 
-        txt1.setOnClickListener(new View.OnClickListener() {
+        textView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                showMenu(view);
+            public void onClick(View v) {
+                popmenu();
             }
         });
+
     }
 
-    public void showMenu(View view) {
-        PopupMenu popupMenu = new PopupMenu(this, view);
-        popupMenu.getMenuInflater().inflate(R.menu.sujan_dai, popupMenu.getMenu());
-        popupMenu.setOnMenuItemClickListener(this);
+    private void popmenu(){
+        PopupMenu popupMenu=new PopupMenu(this,textView);
+        popupMenu.getMenuInflater().inflate(R.menu.sujan_dai,popupMenu.getMenu());
+
+        popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                int id = item.getItemId();
+                if (id==R.id.edit12){
+                    Toast.makeText(getApplicationContext(),"Edit clicked!!",Toast.LENGTH_SHORT).show();
+                } else if (id==R.id.Del1) {
+                    Toast.makeText(getApplicationContext(),"Delete clicked!!",Toast.LENGTH_SHORT).show();
+
+                } else {
+                    Toast.makeText(getApplicationContext(),"copy clicked",Toast.LENGTH_SHORT).show();
+                }
+                return true;
+            }
+        });
+
         popupMenu.show();
-    }
-
-    @Override
-    public boolean onMenuItemClick(MenuItem item) {
-        if (item.getItemId() == R.id.edit12) {
-            txt1.setText("Edit clicked");
-            return true;
-        } else if (item.getItemId() == R.id.Del1) {
-            txt1.setText("Delete clicked");
-            return true;
-        } else if (item.getItemId() == R.id.cpy1) {
-            txt1.setText("Copy clicked");
-            return true;
-        }
-        return false;
     }
 }
