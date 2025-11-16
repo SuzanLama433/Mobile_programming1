@@ -1,133 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/faultyForm"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:layout_gravity="center"
-        android:id="@+id/faculty_1"
-        />
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/name"
-        android:textSize="30sp"
-        android:inputType="text"
-        android:id="@+id/edit_name"
-        />
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/address"
-        android:textSize="30sp"
-        android:inputType="text"
-        android:id="@+id/edit_address"
-        />
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/phone"
-        android:textSize="30sp"
-        android:id="@+id/edit_phone"
-        android:inputType="number"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gender:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:id="@+id/text_gender"
-        />
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+    android:padding="16dp">
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Male"
-            android:textSize="20dp"
-            android:id="@+id/button_male"
-            />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Female"
-            android:textSize="20dp"
-            android:id="@+id/button_female"
-            />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Other"
-            android:textSize="20sp"
-            android:id="@+id/button_other"
-            />
-    </RadioGroup>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hobbies:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:id="@+id/text_hobbies"
-        />
-    <CheckBox
+    <!-- Toolbar -->
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Football"
-        android:id="@+id/check_football"
-        />
-    <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cricket"
-        android:id="@+id/check_cricket"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text= "Faculty:"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:id="@+id/text_faculty"
-        />
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/st1"
-        android:spinnerMode="dropdown"
-        android:id="@+id/faculty_items"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:background="#2196F3">
 
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Submit"
-        android:id="@+id/button_submit"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="26sp"
+            android:textColor="#fff"
+            android:layout_marginStart="150dp"/>
+    </LinearLayout>
+
+    <!-- Weighted Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Copyright"
         android:textSize="20sp"
         android:textStyle="italic"
-        android:layout_gravity="center"
-        android:gravity="bottom"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="150sp"
         android:id="@+id/text_copyright"
         />
+
 
 </LinearLayout>

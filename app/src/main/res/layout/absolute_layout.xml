@@ -1,22 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/name"
-        android:textSize="30sp"
-        android:id="@+id/relate_text1"
-        android:layout_x="20sp"
-        android:layout_y="40sp"/>
+    android:layout_height="match_parent"
+    android:padding="20dp">
 
+    <!-- Title -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/address"
-        android:textSize="30sp"
-        android:id="@+id/relate_text2"
-        />
+        android:id="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="20dp"
+        android:text="User Profile"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_x="20dp"
+        android:layout_y="80dp"
+        android:text="Name:"
+        android:textSize="18sp" />
+
+    <!-- Name Value -->
+    <TextView
+        android:id="@+id/nameValue"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_x="120dp"
+        android:layout_y="80dp"
+        android:text="Sujan Lama"
+        android:textSize="18sp" />
+
+    <!-- Email Label -->
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_x="20dp"
+        android:layout_y="130dp"
+        android:text="Email:"
+        android:textSize="18sp" />
+
+    <!-- Email Value -->
+    <TextView
+        android:id="@+id/emailValue"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_x="120dp"
+        android:layout_y="130dp"
+        android:text="sujanlama2323@gmail.com"
+        android:textSize="18sp" />
+
+    <!-- Address Label -->
+    <TextView
+        android:id="@+id/addressLabel"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_x="20dp"
+        android:layout_y="180dp"
+        android:text="Address:"
+        android:textSize="18sp" />
+
+    <!-- Address Value -->
+    <TextView
+        android:id="@+id/addressValue"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_x="120dp"
+        android:layout_y="180dp"
+        android:text="lalitpur, Nepal"
+        android:textSize="18sp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_x="20dp"
+        android:layout_y="280dp"
+        android:text="Save Profile"
+        android:textSize="18sp"/>
+
 
 </AbsoluteLayout>

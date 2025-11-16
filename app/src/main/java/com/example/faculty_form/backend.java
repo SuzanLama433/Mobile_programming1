@@ -25,7 +25,7 @@ public class backend extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.linear_layout);
+        setContentView(R.layout.widget);
         edit_name = findViewById(R.id.edit_name);
         edit_address = findViewById(R.id.edit_address);
         edit_phone = findViewById(R.id.edit_phone);

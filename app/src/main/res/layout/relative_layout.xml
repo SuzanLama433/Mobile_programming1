@@ -1,37 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/name"
-        android:inputType="text"
-        android:textSize="30sp"
-        android:id="@+id/relate_edit1"
-        />
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/address"
-        android:inputType="text"
-        android:textSize="30sp"
-        android:id="@+id/relate_edit2"
-        android:layout_below="@+id/relate_edit1"
-        />
+    <!-- Display -->
     <TextView
+        android:id="@+id/tvDisplay"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/faultyForm"
-        android:textSize="30sp"
-        android:inputType="number"
-        android:id="@+id/relate_edit4"
-        android:layout_below="@+id/relate_edit2"
+        android:width="320sp"
+        android:layout_height="80dp"
+        android:background="#E0E0E0"
+        android:gravity="end|center_vertical"
+        android:text="0"
+        android:textSize="28sp"
+        android:padding="10dp" />
 
+    <!-- Row 1 -->
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="7"
+        android:layout_below="@id/tvDisplay"/>
 
-        />
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="8"
+        android:layout_toRightOf="@id/btn7"
+        android:layout_below="@id/tvDisplay"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="9"
+        android:layout_toRightOf="@id/btn8"
+        android:layout_below="@id/tvDisplay"/>
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="/"
+        android:layout_toRightOf="@id/btn9"
+        android:layout_below="@id/tvDisplay"/>
+
+    <!-- Row 2 -->
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="4"
+        android:layout_below="@id/btn7"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="5"
+        android:layout_toRightOf="@id/btn4"
+        android:layout_below="@id/btn8"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="6"
+        android:layout_toRightOf="@id/btn5"
+        android:layout_below="@id/btn9"/>
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="*"
+        android:layout_toRightOf="@id/btn6"
+        android:layout_below="@id/btnDivide"/>
+
+    <!-- Row 3 -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="1"
+        android:layout_below="@id/btn4"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="2"
+        android:layout_toRightOf="@id/btn1"
+        android:layout_below="@id/btn5"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="3"
+        android:layout_toRightOf="@id/btn2"
+        android:layout_below="@id/btn6"/>
+
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="-"
+        android:layout_toRightOf="@id/btn3"
+        android:layout_below="@id/btnMultiply"/>
+
+    <!-- Row 4 -->
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="0"
+        android:layout_below="@id/btn1"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="C"
+        android:layout_toRightOf="@id/btn0"
+        android:layout_below="@id/btn2"/>
+
+    <Button
+        android:id="@+id/btnEqual"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="="
+        android:layout_toRightOf="@id/btnClear"
+        android:layout_below="@id/btn3"/>
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="+"
+        android:layout_toRightOf="@id/btnEqual"
+        android:layout_below="@id/btnMinus"/>
+
 
 
 </RelativeLayout>

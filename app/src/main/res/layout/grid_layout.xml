@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:useDefaultMargins="true">
+    <!-- HOME -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="H"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#4CAF50"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- SETTINGS -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="S"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#2196F3"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- PROFILE -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="P"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#FF5722"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+
+</GridLayout>
