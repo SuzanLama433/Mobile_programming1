@@ -9,6 +9,6 @@ public class widget_backend extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.grid_layout);
+        setContentView(R.layout.absolute_layout);
     }
 }

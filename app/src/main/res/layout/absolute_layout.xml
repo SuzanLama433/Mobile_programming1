@@ -32,7 +32,7 @@
         android:layout_height="30dp"
         android:layout_x="120dp"
         android:layout_y="80dp"
-        android:text="Sujan Lama"
+        android:text="prabin"
         android:textSize="18sp" />
 
     <!-- Email Label -->
@@ -52,7 +52,7 @@
         android:layout_height="30dp"
         android:layout_x="120dp"
         android:layout_y="130dp"
-        android:text="sujanlama2323@gmail.com"
+        android:text="prabin@gmail.com"
         android:textSize="18sp" />
 
     <!-- Address Label -->

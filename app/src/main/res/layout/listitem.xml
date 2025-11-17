@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="80dp">
+
+    <!-- Messi Image -->
+    <ImageView
+        android:id="@+id/messi1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/messi"
+        android:layout_gravity="center"
+        android:contentDescription="Messi Image" />
+
+    <!-- Player Name -->
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: leo Messi"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first_club: Barca"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achievement:World Cup"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magic"
+        android:layout_gravity="center"
+        android:id="@+id/magic"/>
+
+</LinearLayout>
