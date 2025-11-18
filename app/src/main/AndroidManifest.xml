@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Faculty_form" >
 
-        <activity android:name=".listview_backend"
+        <activity android:name=".gridview_backed"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

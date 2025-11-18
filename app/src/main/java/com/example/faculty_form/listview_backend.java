@@ -21,9 +21,9 @@ public class listview_backend extends AppCompatActivity {
         setContentView(R.layout.listview);
         lts1 = findViewById(R.id.listview1);
         int [] messi_img = {R.drawable.messi, R.drawable.res};
-        String [] name = {"Messi"};
-        String [] club = {"Barca"};
-        String [] cup ={"world cup"};
+        String [] name = {"Messi","hi"};
+        String [] club = {"Barca","sujan"};
+        String [] cup ={"world cup","hello"};
         list_adapter adapter = new list_adapter(this, messi_img,name,club,cup);
         lts1.setAdapter(adapter);
     }
