@@ -11,8 +11,8 @@
     <!-- Name -->
     <ImageView
         android:id="@+id/messi1"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
         android:scaleType="centerCrop"
         android:src="@drawable/messi" />
 
@@ -44,11 +44,11 @@
         android:gravity="center"/>
 
     <!-- Button -->
-    <Button
-        android:id="@+id/magic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Magic"
-        android:layout_marginTop="8dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/magic"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Magic"-->
+<!--        android:layout_marginTop="8dp"/>-->
 
 </LinearLayout>

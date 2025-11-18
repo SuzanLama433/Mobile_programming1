@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,13 +26,17 @@ public class gridview_backed extends AppCompatActivity {
         grid1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                int im = adapter.messi_img[position];
+                int click_image = adapter.messi_img[position];
                 String st = adapter.name[position];
                 String st1 = adapter.club[position];
                 String st2 = adapter.cup[position];
+                if (position==0){
+                    Toast.makeText(gridview_backed.this, "messi", Toast.LENGTH_SHORT).show();
 
+                }
 
             }
+
         });
     }
 }

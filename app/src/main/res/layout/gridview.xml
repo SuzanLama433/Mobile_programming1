@@ -6,7 +6,7 @@
         android:id="@+id/gridview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numColumns="4"
+        android:numColumns="3"
         android:verticalSpacing="10dp"
         android:horizontalSpacing="10dp"
         android:padding="10dp"/>

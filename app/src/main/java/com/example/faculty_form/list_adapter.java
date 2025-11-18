@@ -43,17 +43,17 @@ public class list_adapter extends ArrayAdapter<String>  {
         txt1 = rowview.findViewById(R.id.id1);
         txt2 = rowview.findViewById(R.id.id2);
         txt3 = rowview.findViewById(R.id.id3);
-        Button magicBtn = rowview.findViewById(R.id.magic);
+//        Button magicBtn = rowview.findViewById(R.id.magic);
         imageView.setImageResource(messi_img[position]);
         txt1.setText(name[position]);
         txt2.setText(club[position]);
         txt3.setText(cup[position]);
-        magicBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(context.getApplicationContext(),"won the World Cup in 2022",Toast.LENGTH_LONG).show();
-            }
-        });
+//        magicBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(context.getApplicationContext(),"won the World Cup in 2022",Toast.LENGTH_LONG).show();
+//            }
+//        });
 
         return rowview;
 
