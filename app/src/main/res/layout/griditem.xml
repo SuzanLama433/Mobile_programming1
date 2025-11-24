@@ -43,6 +43,272 @@
         android:textSize="10dp"
         android:gravity="center"/>
 
+    <ImageView
+        android:id="@+id/messi12"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id312"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/messi121"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id321"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/messi1456"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id1124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2213"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id3245"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/messi125"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id11235"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id3245"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/messi11245"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id1124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2246"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id346"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/messi1555"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id1266"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2236"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id389"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/messi19874"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id13467"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2q45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id3456"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+    <ImageView
+    android:id="@+id/messi10987"
+    android:layout_width="60dp"
+    android:layout_height="50dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/messi" />
+
+    <TextView
+        android:id="@+id/id1365"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo Messi"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Team -->
+    <TextView
+        android:id="@+id/id2we7y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barca"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+    <!-- Achievement -->
+    <TextView
+        android:id="@+id/id3982"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Cup"
+        android:textSize="10dp"
+        android:gravity="center"/>
+
+
     <!-- Button -->
 <!--    <Button-->
 <!--        android:id="@+id/magic"-->

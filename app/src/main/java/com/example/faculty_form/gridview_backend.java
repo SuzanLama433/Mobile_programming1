@@ -9,17 +9,49 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class gridview_backed extends AppCompatActivity {
+public class gridview_backend extends AppCompatActivity {
     GridView grid1;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gridview);
         grid1 = findViewById(R.id.gridview1);
-        int [] messi_img = {R.drawable.messi, R.drawable.res};
-        String [] name = {"leo", "messi"};
-        String [] club = {"Barca", "gf"};
-        String [] cup ={"world cup","ggg"};
+        int [] messi_img = {
+                R.drawable.messi,
+                R.drawable.messi,
+                R.drawable.messi,
+                R.drawable.messi,
+                R.drawable.messi,
+                R.drawable.messi
+        };
+
+        String [] name = {
+                "Leo Messi",
+                "Leo Messi",
+                "Leo Messi",
+                "Leo Messi",
+                "Leo Messi",
+                "Leo Messi"
+        };
+
+        String [] club = {
+                "Barca",
+                "Barca",
+                "Barca",
+                "Barca",
+                "Barca",
+                "Barca"
+        };
+
+        String [] cup = {
+                "World Cup",
+                "World Cup",
+                "World Cup",
+                "World Cup",
+                "World Cup",
+                "World Cup"
+        };
+
 
         gridviewAdapter_backed adapter = new gridviewAdapter_backed(this, messi_img,name,club,cup);
         grid1.setAdapter(adapter);
@@ -31,7 +63,7 @@ public class gridview_backed extends AppCompatActivity {
                 String st1 = adapter.club[position];
                 String st2 = adapter.cup[position];
                 if (position==0){
-                    Toast.makeText(gridview_backed.this, "messi", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(gridview_backend.this, "messi", Toast.LENGTH_SHORT).show();
 
                 }
 
