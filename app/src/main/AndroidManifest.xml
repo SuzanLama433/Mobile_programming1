@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -11,8 +14,11 @@
         android:roundIcon="@drawable/res"
         android:supportsRtl="true"
         android:theme="@style/Theme.Faculty_form" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyBXtX28lglpSl9XT69_lulKKUn1kVzXP_M" />
 
-        <activity android:name=".recycle_backend"
+        <activity android:name=".googlemap_backend"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

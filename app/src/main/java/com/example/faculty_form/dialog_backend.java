@@ -25,7 +25,6 @@ public class dialog_backend extends AppCompatActivity {
                 Toast.makeText(getApplicationContext()," clicked",Toast.LENGTH_SHORT).show();
                 showDialog();
             }
-
         });
 
         }
@@ -35,13 +34,7 @@ public class dialog_backend extends AppCompatActivity {
         builder.setView(R.layout.dialogscreen);
         builder.show();
 //        builder.setCancelable(true);
-
 //        AlertDialog.Builder builder1 = builder.setView(R.layout.dialogscreen);
 //        AlertDialog show = builder.show();
-
-
-
-
     }
-
 }

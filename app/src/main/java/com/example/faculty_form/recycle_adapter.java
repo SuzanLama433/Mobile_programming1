@@ -40,12 +40,11 @@ public class recycle_adapter extends RecyclerView.Adapter<recycle_adapter.ViewHo
         holder.txt1.setText(name[position]);
         holder.txt2.setText(address[position]);
         holder.imageView.setImageResource(img[position]);
-
-
     }
 
     @Override
     public int getItemCount() {
+
         return name.length;
     }
     public static  class ViewHolder extends RecyclerView.ViewHolder {

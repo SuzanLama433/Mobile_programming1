@@ -1,9 +1,5 @@
 package com.example.faculty_form;
-
 import android.os.Bundle;
-import android.widget.ImageView;
-import android.widget.TextView;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -21,7 +17,8 @@ public class recycle_backend extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycle10);
         String[] name = {
                 "Ram", "hari ", "Sita"};
-        String [] address = {"Lalitpur", "Kathmandu ", "pokhara"};
+        String [] address = {
+                "Lalitpur", "Kathmandu ", "pokhara"};
         int[] img = {
                 R.drawable.messi,
                 R.drawable.res,
